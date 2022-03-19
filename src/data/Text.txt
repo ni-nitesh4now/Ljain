@@ -1,0 +1,59 @@
+
+All the required Text for this portfolio
+Fonts
+
+----------------------------------------------
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Pacifico&family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+----------------------------------------------
+
+
+Skills
+----------------------------------------------
+ 
+I remember when I stepped into my first project I had a foundational knowledge of mechanical design. I felt I can work with myself on it.
+By this time I was learning autocad and in a matter of few months I switched to CATIA.
+I learnt to perform proper analysis of the designed product and prepare a report of the same.
+
+
+In this mechanical portfolio you will find two projects attached to examplify the skills I have learnt so far. 
+The projects attached in this portfolio takes up most of all the basic and fundamentals of designing and structural analysis of the same.
+
+CAD 
+AutoCAD 
+Engineering design 
+CATIA
+Interpersonal Skills
+Communication Skills
+----------------------------------------------
+
+About Text
+
+----------------------------------------------
+My name is Lakshita Jain and I am a second year student in National Institute of Technology Kurukshetra. My wish is to become a good person. 
+I always loved creating new designs and recreating a pre-existing design. 
+I learnt to think of the boundary conditions doing a proper analysis and reaching to the end result all my myself.
+I think it has helped me to develop into a stronger designer.
+I wish to continue my learning in ansys and eventually shift from structural analysis to different analysis over the time.
+----------------------------------------------
+
+
+Theme
+----------------------------------------------
+    body:"#FCF6F4",
+    text:"#000000",
+    fontFamily:"'Source Sans Pro', sans-serif",
+    bodyRgba : "252, 246, 244",
+    textRgba:"0,0,0",
+
+
+----------------------------------------------
+
+
+
+
+
+
