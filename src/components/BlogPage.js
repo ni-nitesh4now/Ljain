@@ -4,8 +4,6 @@ import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons  from '../subComponents/SocialIcons'
 import PowerButton from '../subComponents/PowerButton';
-
-import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
 import { motion } from 'framer-motion'
 import Me from '../assets/Images/resume.jpg'
@@ -22,7 +20,6 @@ const Container = styled.div`
 background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
 width: 100%;
 height:auto;
-
 position: relative;
 padding-bottom: 5rem;
 `
@@ -32,6 +29,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding-top: 10rem;
+width:100vw;
+heigth:100vh;
+.pic{
+@media(max-width:50em){
+    height:75vh;
+    width:100vw;
+  }
+}
 `
 
 
@@ -73,7 +78,6 @@ const BlogPage = () => {
                 <LogoComponent />
                 <SocialIcons />
                 <PowerButton />
-                <AnchorComponent number={numbers}/>
                 <Center>
                     <img className="pic" src={Me} alt="Profile Pic" /></Center>
             <BigTitle text="RESUME" top="5rem" left="5rem" />
