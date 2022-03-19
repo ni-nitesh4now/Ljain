@@ -74,7 +74,6 @@ border: 2px solid ${(props) => props.theme.text};
 color: ${(props) => props.theme.text};
 padding: 2rem;
 margin: 5rem;
-height: 85vh;
 z-index: 3;
 line-height: 1.5;
 justify-content: center;
@@ -83,9 +82,9 @@ font-size: calc(0.6rem + 1vw);
 backdrop-filter: blur(4px);
 font-family: 'Ubuntu Mono', monospace;
 font-style: italic;
-@media(max-width:50rem){
-
-height: 75vh;
+height: 90vh;
+@media(max-width:50rem){   
+height: 65vh;
 }
 `
 
@@ -158,10 +157,6 @@ const MySkillsPage = () => {
                            <Skill>
                                <Title3>CAD</Title3>
                                <Bar><Progress style={{width:'90%'}}><S>90%</S></Progress></Bar>
-                           </Skill>
-                           <Skill>
-                               <Title3>AutoCAD</Title3>
-                               <Bar><Progress style={{width:'70%'}}><S>70%</S></Progress></Bar>
                            </Skill>
                            <Skill>
                                <Title3>CATIA</Title3>
