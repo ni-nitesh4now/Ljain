@@ -151,7 +151,7 @@ display:flex;
 flex-direction:column;
 align-items:left;
 height:80vh;
-width:8vw;
+width:10vw;
 z-index:1;
 @media(min-width:50em){
 width:3.5vw;
