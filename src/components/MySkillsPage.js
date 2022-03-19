@@ -85,7 +85,7 @@ font-family: 'Ubuntu Mono', monospace;
 font-style: italic;
 @media(max-width:50rem){
 
-height: 80vh;
+height: 75vh;
 }
 `
 
