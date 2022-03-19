@@ -73,7 +73,7 @@ const WorkPage = () => {
          element.style.transform = `translateX(${-window.pageYOffset/6}px)`
       
          
-          return (yinyang.current.style.transform = `rotate(${-window.pageYOffset/6}deg)`)
+          return (yinyang.current.style.transform = `rotate(180deg)`)
         }
     
         window.addEventListener('scroll', rotate)
