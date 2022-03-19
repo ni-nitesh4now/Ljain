@@ -66,7 +66,6 @@ font-size: calc(1em);
 `
 
 const Container = styled.div`
-
 box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #31363a;
 padding:10px;
 border-radius:20px;
@@ -84,6 +83,10 @@ font-size: calc(0.6rem + 1vw);
 backdrop-filter: blur(4px);
 font-family: 'Ubuntu Mono', monospace;
 font-style: italic;
+@media(max-width:50rem){
+
+height: 80vh;
+}
 `
 
 const Skill =styled.div`
@@ -123,7 +126,6 @@ font-size: 14px;
 text-transform: uppercase;
 letter-spacing: 2px;
 opacity: 0.9;
-
 text-align: center;
 white-space: nowrap;
 `
