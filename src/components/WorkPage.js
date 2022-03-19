@@ -30,6 +30,11 @@ height: 40vh;
 display: flex;
 
 color:white;
+@media(max-width:50em){
+    left: 2rem;
+    padding:auto;
+    margin:auto;
+  }
 `
 const Rotate = styled.span`
 display:block;
@@ -70,7 +75,7 @@ const WorkPage = () => {
         
         const rotate = () => {
          
-         element.style.transform = `translateX(${-window.pageYOffset/6}px)`
+         element.style.transform = `translateX(${-window.pageYOffset/3}px)`
       
          
           return (yinyang.current.style.transform = `rotate(180deg)`)
