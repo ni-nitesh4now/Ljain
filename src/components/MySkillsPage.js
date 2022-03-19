@@ -75,7 +75,7 @@ border: 2px solid ${(props) => props.theme.text};
 color: ${(props) => props.theme.text};
 padding: 2rem;
 margin: 5rem;
-height: 60vh;
+height: 85vh;
 z-index: 3;
 line-height: 1.5;
 justify-content: center;
@@ -91,9 +91,9 @@ margin: 5px;
 width:100%;
 padding: 15px;
 border:none;
+margin-left:0px;
 border-radius:20px;
 `
-
 const Bar = styled.div`
 background:rgb(54, 54, 54);
 height: 24px;
@@ -151,7 +151,7 @@ const MySkillsPage = () => {
             <Box>
 
                 <ParticleComponent theme='light' />
-                <Container>
+                  <Container>
                        <Title2>My Skills</Title2>
                            <Skill>
                                <Title3>CAD</Title3>
@@ -162,12 +162,24 @@ const MySkillsPage = () => {
                                <Bar><Progress style={{width:'70%'}}><S>70%</S></Progress></Bar>
                            </Skill>
                            <Skill>
-                               <Title3>Engineering design</Title3>
+                               <Title3>CATIA</Title3>
+                               <Bar><Progress style={{width:'90%'}}><S>90%</S></Progress></Bar>
+                           </Skill>
+                           <Skill>
+                               <Title3>Ansys</Title3>
+                               <Bar><Progress style={{width:'80%'}}><S>80%</S></Progress></Bar>
+                           </Skill>
+                           <Skill>
+                               <Title3>InterPersonal Skills</Title3>
+                               <Bar><Progress style={{width:'90%'}}><S>90%</S></Progress></Bar>
+                           </Skill>
+                           <Skill>
+                               <Title3>Research and Analytics</Title3>
                                <Bar><Progress style={{width:'85%'}}><S>85%</S></Progress></Bar>
                            </Skill>
                            <Skill>
-                               <Title3>CATIA</Title3>
-                               <Bar><Progress style={{width:'90%'}}><S>90%</S></Progress></Bar>
+                               <Title3>Market Research</Title3>
+                               <Bar><Progress style={{width:'70%'}}><S>70%</S></Progress></Bar>
                            </Skill>
                 </Container>
                 <BigTitle text="SKILLS" top="80%" right="30%" />
